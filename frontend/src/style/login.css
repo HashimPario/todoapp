@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.login, .register{
+    border: 1px solid black;
+    padding: 50px;
+    margin: 10px;
+    
+    border-radius: 10px;
+}
+
+button{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+input{
+    height: 25px;
+    width: 200px;
+    font-size: 14px;
+}
+label{
+    font-size: larger;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logout{
+    background-color: red;
+    width: 80px; 
+    height: 30px;
+    margin-left: 400px;
+  
+}
+
